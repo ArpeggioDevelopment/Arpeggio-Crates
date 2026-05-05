@@ -24,6 +24,6 @@ dependencies {
 }
 
 tasks.shadowJar {
-    archiveFileName.set("${rootProject.name}-${project.version}.jar")
+    archiveFileName.set("ArpeggioCrates-${project.version}.jar")
 
 }
