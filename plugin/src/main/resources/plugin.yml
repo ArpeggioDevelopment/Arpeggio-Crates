@@ -1,4 +1,6 @@
 name: Arpeggio-Crates
 main: dev.blavez.crates.Crates
-version: 0.1.0-SNAPSHOT
+authors: [ Blavez ]
+description: A high-performance, modern crates solution focused on optimization and reliability.
+version: '0.1.0-SNAPSHOT'
 api-version: '1.21'
