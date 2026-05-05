@@ -22,3 +22,8 @@ dependencies {
     implementation("eu.okaeri:okaeri-configs-yaml-snakeyaml:6.1.0-beta.4")
     implementation("com.j256.ormlite:ormlite-jdbc:6.1")
 }
+
+tasks.shadowJar {
+    archiveFileName.set("${rootProject.name}-${project.version}.jar")
+
+}
