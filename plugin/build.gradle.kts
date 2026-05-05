@@ -17,4 +17,5 @@ repositories {
 dependencies {
     compileOnly("io.papermc.paper:paper-api:26.1.2.build.+")
 
+    implementation("com.google.inject:guice:7.0.0")
 }
