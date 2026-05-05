@@ -16,5 +16,4 @@ public class PluginModule extends AbstractModule {
         bind(JavaPlugin.class).toInstance(plugin);
 
     }
-
 }
