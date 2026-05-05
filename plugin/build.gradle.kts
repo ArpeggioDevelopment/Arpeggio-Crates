@@ -12,10 +12,12 @@ repositories {
         name = "papermc"
         url = uri("https://repo.papermc.io/repository/maven-public/")
     }
+    maven("https://repo.okaeri.cloud/releases")
 }
 
 dependencies {
     compileOnly("io.papermc.paper:paper-api:26.1.2.build.+")
 
     implementation("com.google.inject:guice:7.0.0")
+    implementation("eu.okaeri:okaeri-configs-yaml-snakeyaml:6.1.0-beta.4")
 }
