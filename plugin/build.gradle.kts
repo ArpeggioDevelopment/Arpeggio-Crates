@@ -20,4 +20,5 @@ dependencies {
 
     implementation("com.google.inject:guice:7.0.0")
     implementation("eu.okaeri:okaeri-configs-yaml-snakeyaml:6.1.0-beta.4")
+    implementation("com.j256.ormlite:ormlite-jdbc:6.1")
 }
