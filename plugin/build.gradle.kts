@@ -19,7 +19,8 @@ dependencies {
     compileOnly("io.papermc.paper:paper-api:26.1.2.build.+")
 
     implementation("com.google.inject:guice:7.0.0")
-    implementation("eu.okaeri:okaeri-configs-yaml-snakeyaml:6.1.0-beta.4")
+    implementation("eu.okaeri:okaeri-configs-yaml-bukkit:6.1.0-beta.4")
+    implementation("eu.okaeri:okaeri-configs-serdes-bukkit:6.1.0-beta.4")
     implementation("com.j256.ormlite:ormlite-jdbc:6.1")
     implementation("com.zaxxer:HikariCP:7.0.2")
 }
