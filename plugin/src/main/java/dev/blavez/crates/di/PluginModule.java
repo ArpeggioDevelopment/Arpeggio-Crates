@@ -15,5 +15,6 @@ public class PluginModule extends AbstractModule {
     public void configure() {
         bind(JavaPlugin.class).toInstance(plugin);
 
+        install(new ConfigModule(plugin));
     }
 }
